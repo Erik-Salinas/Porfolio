@@ -1,0 +1,62 @@
+.menu {
+    background-color: #BF1A2F;
+    height: 85px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dowload a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Lexend", sans-serif;
+    margin-right: 50px;
+    background-color: white;
+    padding: 6px 12px;
+    border-radius: 50px;
+  }
+.dowload a:hover{
+  background-color: #BF1A2F;
+  border: 1px solid black;
+  color: white;
+}
+
+  .sub-menu ul {
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .sub-menu li {
+    list-style: none;
+    margin: 0px 15px;
+    display: flex;
+  }
+  
+  .sub-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family: "Lexend", sans-serif;
+    position: relative;
+  }
+  
+  .sub-menu a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all 0.5s;
+    will-change: width;
+  }
+  
+  .sub-menu a:hover:after {
+    width: 100%;
+    right: 0;
+  }
+  
+  
