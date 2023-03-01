@@ -16,18 +16,18 @@
   box-sizing: border-box;
 }
 
-.sobre__mi h1 {
+.sobre__mi--info h1 {
   color: black;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 3rem;
 }
 
-.sobre__mi p {
+.sobre__mi--info p {
   color: black;
   font-size: 1.3rem;
   font-family: "Lexend Deca", sans-serif;
-  width: 80vh;
+  width: 50%;
 }
 
 .menu {
@@ -92,19 +92,23 @@
   right: 0;
 }
 
-.sobre__mi {
-  margin: 80px 60px;
-}
-
+/* .sobre__mi--info, .tecnologias {
+    margin: 80px 60px;
+} */
 .foto__perfil img {
   width: 200px;
   border-radius: 100%;
-  margin: 60px 150px;
+  /*  margin: 60px 150px; */
 }
 
-.prueba {
+.sobre__mi {
   display: flex;
   justify-content: space-between;
+}
+
+.habilidades {
+  background-color: #BF1A2F;
+  height: 50vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

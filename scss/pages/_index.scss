@@ -1,12 +1,20 @@
-.sobre__mi {
+//*SOBRE MI
+/* .sobre__mi--info, .tecnologias {
     margin: 80px 60px;
-}
+} */
 .foto__perfil img{
     width: 200px;
     border-radius: 100%;
-    margin: 60px 150px;
+   /*  margin: 60px 150px; */
 }
-.prueba{
+.sobre__mi{
     display: flex;
     justify-content: space-between;
 }
+//*HABILIDADES
+
+.habilidades{
+    background-color: #BF1A2F;
+    height: 50vh;
+}
+
